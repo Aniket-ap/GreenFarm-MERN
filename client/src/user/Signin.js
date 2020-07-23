@@ -3,7 +3,7 @@ import { Redirect } from "react-router-dom";
 import { signin, authenticate, isAuthenticated } from "../auth";
 import "../styles.css";
 
-import Navbar from '../core/Menu'
+import Navbar from "../core/Menu";
 
 const Signin = () => {
   const [values, setValues] = useState({
@@ -131,7 +131,7 @@ const Signin = () => {
 
   return (
     <div>
-    <Navbar/>
+      <Navbar />
       {showLoading()}
       {showError()}
       {signUpForm()}
