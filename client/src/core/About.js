@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles.css";
+import Shop from './Shop'
 
 export class About extends Component {
   render() {

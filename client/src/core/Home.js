@@ -42,7 +42,7 @@ const Home = () => {
     <div>
       <Menu />
       <HeroSection />
-      <About />
+      
       {/* <Search /> */}
       <h2 className="mb-4">Fresh Uploads</h2>
       <div className="row">
@@ -61,6 +61,7 @@ const Home = () => {
           </div>
         ))}
       </div>
+      <About />
       <Footer />
     </div>
   );
