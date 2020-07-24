@@ -57,9 +57,11 @@ const AdminDashboard = () => {
   return (
     <div>
       <Navbar />
-      <div className="row">
-        <div className="col-3">{adminLinks()}</div>
-        <div className="col-9">{adminInfo()}</div>
+      <div className="__dashboard">
+        <div className="row">
+          <div className="col-3">{adminLinks()}</div>
+          <div className="col-9">{adminInfo()}</div>
+        </div>
       </div>
     </div>
   );
