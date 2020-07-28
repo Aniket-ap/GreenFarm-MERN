@@ -203,7 +203,7 @@ body {
   margin: 20px auto;
 }
 
-.about a {
+.about button {
   display: inline-block;
   color: green;
   text-decoration: none;
@@ -213,12 +213,35 @@ body {
   transition: 0.4s linear;
 }
 
-.about a:hover {
+.about button:hover {
   color: #fff;
   background: green;
 }
 
 /* ABOUT END */
+
+/* ABOUT US */
+
+.about__us{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.about__us h1{
+  text-align: center;
+  color: #00ae68;
+}
+
+.my-1{
+  
+}
+
+.bg-dark {
+  color: white;
+  text-align: center;
+}
+
+/* ABOUT US END */
 
 /* Footer Start */
 
