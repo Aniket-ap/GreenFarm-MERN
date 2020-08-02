@@ -3,7 +3,7 @@ import { isAuthenticated } from "../auth";
 import { Link, Redirect } from "react-router-dom";
 import { getProduct, getCategories, updateProduct } from "./apiAdmin";
 
-import Navbar from '../core/Menu'
+import Navbar from "../core/Menu";
 
 const UpdateProduct = ({ match }) => {
   const [values, setValues] = useState({
@@ -224,7 +224,7 @@ const UpdateProduct = ({ match }) => {
 
   return (
     <div>
-    <Navbar/>
+      <Navbar />
       <div className="row">
         <div className="col-md-8 offset-md-2">
           {showLoading()}
